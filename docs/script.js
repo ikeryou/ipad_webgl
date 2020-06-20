@@ -17,7 +17,7 @@ function init() {
     powerPreference: 'low-power',
     canvas: document.getElementsByClassName('kv')[0]
   })
-  _renderer.setClearColor(0xffffff, 1) // 背景色
+  _renderer.setClearColor(0xff0000, 1) // 背景色
   _renderer.setPixelRatio(window.devicePixelRatio || 1)
 
   // make main scene
